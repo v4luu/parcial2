@@ -53,14 +53,14 @@ $ python3 main.py
           
 *Punto 3:    
 Para el caso de este punto se uso la tabla proporcionada en Segundo_Parcial_LP.pdf, siendo asi que se tomaron las transformaciones de manera literal, los input aceptados son unicamente los siguientes, en donde se devolvera la forma para solucionar la funcion mediante transformada de fourier:    
->f(x) = {(1, t <= a/2),(0, t <= a/2)}
->f(x) = {(1, t <= 2),(0, t <= 2)}
->sign(t) = {(1, t > 0),(-1, t < 0)}
->u(t) = {(1, t > 0),(0, t < 0)}
->d(t)
->cos(2 t)
->sin(123 t)
->SUM( inf, n = -inf , d(t  -n 14 ))    
+>f(x) = {(1, t <= a/2),(0, t <= a/2)}     
+>f(x) = {(1, t <= 2),(0, t <= 2)}     
+>sign(t) = {(1, t > 0),(-1, t < 0)}     
+>u(t) = {(1, t > 0),(0, t < 0)}     
+>d(t)    
+>cos(2 t)     
+>sin(123 t)     
+>SUM( inf, n = -inf , d(t  -n 14 ))       
      
 Comandos punto 3:    
 $ antlr4 -Dlanguage=Python3 -visitor fourier.g4 -> aplicar si se hacen cambios en la gramatica     
