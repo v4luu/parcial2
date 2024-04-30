@@ -30,7 +30,7 @@ $ python3 complex_calculator.py
 -Aplicación de una funcion:   
 La funcion seleccionada para este punto fue map, donde el input esperado para esta funcion sera de la forma:   
 >map(funcion, lista)
-Donde funcion sera definida con la estructura de una funcion lambda luego de los dos puntos. Ejemplos:
+Donde funcion sera definida con la estructura de una funcion lambda luego de los dos puntos. Ejemplos:     
 >x+9
 >x*2   
 >len(x)   
@@ -41,7 +41,7 @@ Y lista sera cualquier lista de strings, floats o ints
 -Aplicación de funcion para Filtrar:   
 La funcion seleccionada para este punto fue filter, donde el input esperado para esta funcion sera de la forma:   
 >filter(funcion, lista)
-Donde funcion sera definida siempre con una sentencia condicional donde se tenga a x como variable iteradora. Ejemplos:
+Donde funcion sera definida siempre con una sentencia condicional donde se tenga a x como variable iteradora. Ejemplos:    
 >x % 2 == 0    
 >len(x) > 5       
 >x > 5
